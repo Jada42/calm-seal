@@ -162,7 +162,7 @@ SEAL Delta: Semantic distance between Standard Output and Aligned Output.
 
 Logs saved to /content/ablation_logs/hybrid_calm_z_run.npz
 
-# Sample
+### Sample
 
 ```
 --- RESULTS ---
@@ -213,12 +213,15 @@ Learns to interpolate between predicted deltas and noise, stabilizing generation
 
 Enables the model to "rewire" its weights on the fly to satisfy alignment constraints that were not present during pre-training.
 
-# 📈 Performance Characteristics
+## 📈 Performance Characteristics
+```
 Metric	Value	Notes
 Compression Ratio	4:1	4 tokens → 1 vector
 Inference Mode	Hybrid	Auto-Regressive + Diffusion
 Alignment	Dynamic	Weights update per prompt (TTT)
 Compute	TPU/GPU	JAX/Flax Optimized
+```
+
 
 ## 🔮 Future Directions
 [ ] Scale to 1B+ parameters
