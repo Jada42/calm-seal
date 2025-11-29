@@ -1,4 +1,4 @@
-# Calm-Seal: A hybrid continuous autoregressive language model with self-adaptive alignment
+# Calm-Seal: A hybrid continuous autoregressive language model with latent TTT
 
 <div align="center">
 
