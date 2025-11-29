@@ -2,9 +2,9 @@
 
 <div align="center">
 
-**Brain-Inspired Continuous Language Model: Attention and Beyond**
+**Calm Seal**
 
-*A hybrid implementation of Continuous Autoregressive Language Modeling (CALM) fused with State Space Models (SSM), Hopfield Networks, and Inference-Time Alignment.*
+*A hybrid implementation of Continuous Autoregressive Language Modeling (CALM) fused with State Space Models (SSM), Hopfield Networks, and Inference-Time Alignment (TTT).*
 
 <p align="center">
   <a href="https://github.com/google/jax">
@@ -30,7 +30,7 @@
 </div>
 
 ## 🎯 Overview
-Hybrid CALM-z is an adaptation of the CALM model (Shao et al., 2025). Instead of predicting discrete tokens one by one, it operates in a continuous latent space, predicting entire vectors that represent chunks of text.
+CALM-Seal is an adaptation of the CALM model (Shao et al., 2025). Instead of predicting discrete tokens one by one, it operates in a continuous latent space, predicting entire vectors that represent chunks of text.
 
 Why Hybrid?
 
@@ -39,7 +39,7 @@ While standard CALM focuses on efficiency via vectorization, this project explor
 Component	Purpose	Benefit
 ```
 -  Token VAE	Compresses K tokens → dense latent vector	Reduces generation steps
-- ⚡ SSM (State Space Models)	Efficient long-range processing	Linear scaling with sequence length
+-  SSM (State Space Models)	Efficient long-range processing	Linear scaling with sequence length
 -  Hopfield Networks	Associative memory retrieval	Biological plausibility + dense memory
 -  Gated Energy Head	Refines noise → semantic vectors	Controlled generation (Diffusion-like)
 -  SEAL Alignment	New: Inference-Time Weight Updates	Align thought process via gradient descent
