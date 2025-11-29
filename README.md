@@ -234,6 +234,8 @@ Compute	TPU/GPU	JAX/Flax Optimized
 
 [ ] Dual models (Router selecting between Latent prediction vs Token prediction)
 
+[ ] Normalize VAE as sphere geometrically (Gaussian Soap Bubble effect, see https://github.com/nicola-decao/s-vae-pytorch)
+
 ## 📚 References
 This work builds upon:
 
