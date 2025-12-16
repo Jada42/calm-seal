@@ -264,10 +264,10 @@ Evaluation benchmarks (Latent Space PPL)
 If you use this code in your research, please cite:
 
 Code-Snippet
-@misc{hybrid-calm-z,
+@misc{Calm-Seal,
   author = {Jada42},
-  title = {Hybrid CALM-on-Z: Latent Alignment via Test-Time Training},
-  year = {2025},
+  title = {Calm-Seal: Latent Alignment via Test-Time Training},
+  year = {20.11.2025},
   publisher = {GitHub},
   url = {https://github.com/jada42/hybrid-calm-on-z}
 }
